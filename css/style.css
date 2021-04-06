@@ -1,0 +1,57 @@
+.slider,
+.slider .slides {
+  height: 46.3vw !important;
+}
+
+.slider .slides h3,
+.slider .slides h5,
+.clients h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.parallax-container {
+  height: 200%;
+}
+
+.parallax img {
+  filter: greyscale(1);
+  opacity: 0.6 !important;
+}
+
+img.client {
+  max-width: 180px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8)) !important;
+}
+
+section {
+  padding: 20px 0;
+}
+
+#porfolio img {
+  border-radius: 1.8%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 3px 0;
+}
+
+footer p a {
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+  .slider .slides h3 {
+    font-size: 6.9vw !important;
+  }
+  .slider .slides h5 {
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  footer p {
+    font-size: 11.5px;
+  }
+}
